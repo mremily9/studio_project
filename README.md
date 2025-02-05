@@ -75,6 +75,9 @@ Where if the y movement integer was positive, it would move downwards, and if it
 
 I then started to experiment and test with window.scrollTo(). 
 
+![image](https://github.com/user-attachments/assets/e4ba2da0-4b7b-431d-9f91-40bb6f3cf54d)
+
+
 ```javascript
 window.scrollTo(0,100);
 ```
