@@ -163,7 +163,7 @@ function refresh(){
 }
   
 function switchsite(){
-    location.replace('index.html');
+    location.replace('balls.html');
 }
 
 function scrollbug(loc = 100){
