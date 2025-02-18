@@ -80,7 +80,7 @@ function setup() {
 
     frameRate(60);
     // chosen = glitches[int (random(glitches.length))];
-    glitches = int(random(0, 11));
+    glitches = int(random(0, 12));
 
 
 }
@@ -127,19 +127,19 @@ function draw() {
             glitch4();
             glitch1();
           break;
-        case 7:
+        case 8:
             glitch4();
           break;
-        case 8:
+        case 9:
             glitch2();
             glitch3();
           break;
-        case 9:
+        case 10:
             glitch0();
             glitch4();
             glitch1();
           break;
-        case 10:
+        case 11:
             glitch3();
             glitch1();
           break;
