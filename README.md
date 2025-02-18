@@ -15,9 +15,9 @@ About the project:
     - [API - getting the user IP address, locational information etc ](https://github.com/mremily9/studio_project/edit/main/README.md#api-implementation)
     - [Refreshing/Redirecting](https://github.com/mremily9/studio_project/edit/main/README.md#refreshing-and-redirecting)
     - [Ball bouncing](https://github.com/mremily9/studio_project/edit/main/README.md#ball-bouncing)
-  - Putting them all together
-  - Glitch Effects
-  - Final Outcome
+  - [Putting them all together](https://github.com/mremily9/studio_project/edit/main/README.md#putting-them-all-together)
+  - [Glitch Effects](https://github.com/mremily9/studio_project/edit/main/README.md#glitch-effects)
+  - [Final Outcome](https://github.com/mremily9/studio_project/edit/main/README.md#final-outcome)
 - [Future Development](https://github.com/mremily9/studio_project/edit/main/README.md#future-development)
 - [Reflection](https://github.com/mremily9/studio_project/edit/main/README.md#reflection)
 
@@ -395,6 +395,8 @@ I then added more balls to the sketch using another array - balls[]. which wihti
 ```
 
 ![image](https://github.com/user-attachments/assets/68420c19-c288-406a-9e50-951d8670b569)
+
+This can be seen here: https://editor.p5js.org/MrEmily9/full/t46HbefSn
 
 
 ### Putting them all together
