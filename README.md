@@ -6,20 +6,21 @@ About the project:
 <br> This work looks to first showcase a basic animation of a ball bouncing around and off from the screens of the user's windows. This basic animation is a simple visual coding exercise that leads into a glitched phase, showcasing the backbones of this code and breaking the user's perspective of what is happening. Creating an unexpected moment of where the underlying code is revealed in a flash of unrecognisable text for the user, showcasing basic network information and variables that the user wouldnt see from the frontend side of things. 
 
 # Table of contents
-- [Overview](https://github.com/mremily9/studio_project/edit/main/README.md#overview)
-- [Notes](https://github.com/mremily9/studio_project/edit/main/README.md#notescontextual-research)
-- [Progress](https://github.com/mremily9/studio_project/edit/main/README.md#progress-problem-solvingcode)
-  - [The idea and inspiration ](https://github.com/mremily9/studio_project/edit/main/README.md#the-idea-and-inspiration)
+- [Overview](https://github.com/mremily9/studio_project?tab=readme-ov-file#overview)
+- [Notes](https://github.com/mremily9/studio_project?tab=readme-ov-file#notescontextual-research)
+- [Progress](https://github.com/mremily9/studio_project?tab=readme-ov-file#progress-problem-solvingcode)
+  - [Themes](https://github.com/mremily9/studio_project?tab=readme-ov-file#themes)
+  - [The idea and inspiration ](https://github.com/mremily9/studio_project?tab=readme-ov-file#the-idea-and-inspiration)
   - Experiments
-    - [Scroll effect](https://github.com/mremily9/studio_project/edit/main/README.md#scroll-effect )
-    - [API - getting the user IP address, locational information etc ](https://github.com/mremily9/studio_project/edit/main/README.md#api-implementation)
-    - [Refreshing/Redirecting](https://github.com/mremily9/studio_project/edit/main/README.md#refreshing-and-redirecting)
-    - [Ball bouncing](https://github.com/mremily9/studio_project/edit/main/README.md#ball-bouncing)
-  - [Putting them all together](https://github.com/mremily9/studio_project/edit/main/README.md#putting-them-all-together)
-  - [Glitch Effects](https://github.com/mremily9/studio_project/edit/main/README.md#glitch-effects)
-  - [Final Outcome](https://github.com/mremily9/studio_project/edit/main/README.md#final-outcome)
-- [Future Development](https://github.com/mremily9/studio_project/edit/main/README.md#future-development)
-- [Reflection](https://github.com/mremily9/studio_project/edit/main/README.md#reflection)
+    - [Scroll effect](https://github.com/mremily9/studio_project?tab=readme-ov-file#scroll-effect)
+    - [API - getting the user IP address, locational information etc ](https://github.com/mremily9/studio_project?tab=readme-ov-file#api-implementation)
+    - [Refreshing/Redirecting](https://github.com/mremily9/studio_project?tab=readme-ov-file#refreshing-and-redirecting)
+    - [Ball bouncing](https://github.com/mremily9/studio_project?tab=readme-ov-file#ball-bouncing)
+  - [Putting them all together](https://github.com/mremily9/studio_project?tab=readme-ov-file#putting-them-all-together)
+  - [Glitch Effects](https://github.com/mremily9/studio_project?tab=readme-ov-file#glitch-effects)
+- [Final Outcome](https://github.com/mremily9/studio_project?tab=readme-ov-file#final-outcome)
+- [Future Development](https://github.com/mremily9/studio_project?tab=readme-ov-file#future-development)
+- [Reflection](https://github.com/mremily9/studio_project?tab=readme-ov-file#reflection)
 
 # Overview
 - I first started off by figuring out my theme for this project - Glitches
@@ -135,7 +136,8 @@ I wanted to look into the unveiling of a network and website by gathering inform
 
 I took a look through the free [no auths APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/) shown in the workshops and found one called [Cloudflare trace](https://github.com/fawazahmed0/cloudflare-trace-api)
 
-![image](https://github.com/user-attachments/assets/c2219dde-8676-4f26-b949-a798f8d43988)
+![image](https://github.com/user-attachments/assets/c0c1f0e7-6a86-4683-ba3f-34023687c14a)
+
 
 I was able to see the return format of the API, including its endpoints and the return format.
 
