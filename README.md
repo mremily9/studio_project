@@ -1,30 +1,46 @@
 # Studio Project
 
-Website link: 
+Website link: https://mremily9.github.io/studio_project/
 
 About the project: 
-
+<br> This work looks to first showcase a basic animation of a ball bouncing around and off from the screens of the user's windows. This basic animation is a simple visual coding exercise that leads into a glitched phase, showcasing the backbones of this code and breaking the user's perspective of what is happening. Creating an unexpected moment of where the underlying code is revealed in a flash of unrecognisable text for the user, showcasing basic network information and variables that the user wouldnt see from the frontend side of things. 
 
 # Table of contents
 - [Overview](https://github.com/mremily9/studio_project/edit/main/README.md#overview)
 - [Notes](https://github.com/mremily9/studio_project/edit/main/README.md#notescontextual-research)
 - [Progress](https://github.com/mremily9/studio_project/edit/main/README.md#progress-problem-solvingcode)
+  - [The idea and inspiration ](https://github.com/mremily9/studio_project/edit/main/README.md#the-idea-and-inspiration)
   - Experiments
     - [Scroll effect](https://github.com/mremily9/studio_project/edit/main/README.md#scroll-effect )
+    - [API - getting the user IP address, locational information etc ](https://github.com/mremily9/studio_project/edit/main/README.md#api-implementation)
+    - [Refreshing/Redirecting](https://github.com/mremily9/studio_project/edit/main/README.md#refreshing-and-redirecting)
+    - [Ball bouncing](https://github.com/mremily9/studio_project/edit/main/README.md#ball-bouncing)
+  - Putting them all together
+  - Glitch Effects
+  - Final Outcome
 - [Future Development](https://github.com/mremily9/studio_project/edit/main/README.md#future-development)
 - [Reflection](https://github.com/mremily9/studio_project/edit/main/README.md#reflection)
 
 # Overview
-- bullet points
+- I first started off by figuring out my theme for this project - Glitches
+- Looked into contextual research on the theme and medium, finding works I liked and enjoyed.
+- Started working on my project by doing small experiments based on effects I wanted to emulate/create
+  - this led to experimentation of glitch effects, random scrolling, flashing and refreshing the page
+- I wanted to implement the user's data to give a sense of breaking where information that the user may be able to recognise is shown, data that the network uses like their IP address, location, time and date. 
+- I created a basic ball-bouncing animation first
+- I then implemented the redirection from  this basic ball animation into the glitches
+- I then implemented a series of glitches to be produced in between
 
-  
 # Notes/contextual research 
+I had done my research commentaries on the artwork ASDFG by JODI (1999) and on chapter 2. Avant-Garde Glitch: Red Noise, Purple Haze, Black Box for the text. 
 
 
 
 
 # Progress (Problem Solving/Code)
-**Setting up**
+### The idea and inspiration
+
+
 
 <br>
 
@@ -83,6 +99,16 @@ window.scrollTo(0,100);
 ```
 
 I found that it worked as I hoped - placing this in the draw() function made it so that if I wanted to scroll myself with mouse/inputs - it would go back to that same place.
+
+
+### API implementation
+
+
+### Refreshing and Redirecting
+
+
+### Ball bouncing
+
 
 
 
