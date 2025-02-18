@@ -1,8 +1,10 @@
 # Studio Project
 
+[Flash warning!]<br>
 Website link: https://mremily9.github.io/studio_project/
 
-About the project: 
+
+**About the project:**
 <br> This work looks to first showcase a basic animation of a ball bouncing around and off from the screens of the user's windows. This basic animation is a simple visual coding exercise that leads into a glitched phase, showcasing the backbones of this code and breaking the user's perspective of what is happening. Creating an unexpected moment of where the underlying code is revealed in a flash of unrecognisable text for the user, showcasing basic network information and variables that the user wouldnt see from the frontend side of things. 
 
 # Table of contents
