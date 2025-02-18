@@ -8,12 +8,15 @@ let ip_api = 'https://speed.cloudflare.com/meta';
 let ip; 
 let time; 
 var date = new Date(0);
+let postalCode, city, region;
 
 let bg = [0, 255];
 
 let fontlight, fontmed, fontbold; 
 
 let glitches;
+
+let loc = 100; 
 
 
 
@@ -77,7 +80,7 @@ function setup() {
 
     frameRate(60);
     // chosen = glitches[int (random(glitches.length))];
-    glitches = int(random(0, 6));
+    glitches = int(random(0, 11));
 
 
 }
@@ -93,7 +96,6 @@ function draw() {
     date = new Date(0);
     date.setUTCSeconds(time);
 
-    // text(date, 200, 370);
 
 
     switch(glitches) {
@@ -118,11 +120,34 @@ function draw() {
             glitch1();
             glitch0();
           break;
+        case 6:
+            glitch3();
+          break;
+        case 7:
+            glitch4();
+            glitch1();
+          break;
+        case 7:
+            glitch4();
+          break;
+        case 8:
+            glitch2();
+            glitch3();
+          break;
+        case 9:
+            glitch0();
+            glitch4();
+            glitch1();
+          break;
+        case 10:
+            glitch3();
+            glitch1();
+          break;
         default:
             glitch0();
     }
 
-    
+    // glitch4();
 
 
     count++; 
@@ -131,12 +156,6 @@ function draw() {
         // refresh();
     }
 
-    // text(vx,  random(20, 300),  random(20, 300));
-
-    // for(b of balls){
-    //     // b.move(); 
-    //     // b.render(); 
-    //   }
 }
 
 function refresh(){
@@ -158,7 +177,6 @@ function bgflash(col = 2){
 function glitch0(){
     scrollbug(220);
 
-
     for(i = 0; i < 14; i++){
         rect(0, 60 + (i * 80), windowWidth, 40 + random (50));
     }
@@ -168,13 +186,10 @@ function glitch0(){
     fill(255); 
     text("xpos of ball no. " + int(random(0,8)) + " = " + random(0, windowWidth), 70, 400)
 
-
     for(i = 0; i < 30; i++){
         text("ip address: "+ip, 0, 600 + i );
-
     }
     text("ip address: "+ip, 0, 800);
-
 
     textSize(20);
     fill(0); 
@@ -184,11 +199,8 @@ function glitch0(){
         } else {
             fill(0);
         }
-
-        textSize(20);
         text(ip, 0 + i * 6 , 700 + (i * 20));
     }
-
 }
 
 function glitch1(){
@@ -251,5 +263,67 @@ function glitch2() {
 
 
 function glitch3() {
-    window.scrollTo(0,random(loc, loc + windowHeight));
+    window.scrollTo(0+ random(0+ windowWidth), 300 + random(30 + windowHeight));
+    fill(0);
+    rect(20, windowHeight, 60, 40); 
+
+    for(i = 0; i < 50; i++){
+        rect(20 + i * 30, 50, 60 + i * 10, windowHeight); 
+    }
+
+    textSize(12);
+    for(i = 0; i < 20; i++){
+        if( i % 2 == 0){
+            fill(255); 
+        } else {
+            fill(0);
+        }
+        text( "render(){\nfill(255);\ncircle(this.x, this.y, this.diameter);\n}", 110 + i , 400 + i * 10 );
+    }
+
+    for(i = 0; i < 50; i++){
+        if( i % 2 == 0){
+            fill(255); 
+        } else {
+            fill(0);
+        }
+        text( "render(){\nfill(255);\ncircle(this.x, this.y, this.diameter);\n}", windowWidth- random(200, 250) + i , 700 + i * 10 );
+    }
+
+    for(i = 0; i < 50; i++){
+        fill(255);
+        text(city, 20 + i*100, 560); 
+    }
+
+    for(i = 0; i < 50; i++){
+        fill(0);
+        text(city, 20 + i*50, 960); 
+    }
+
+}
+
+function glitch4(){
+    // bgflash();
+    scrollbug(70);
+    fill(0);
+    rect(20, windowHeight, 60, 40); 
+
+    for(i = 0; i < 50; i++){
+        rect(20 + i * 200, 800 + random(150, 500) , 60, 40); 
+
+    }
+
+    for(i = 0; i < 50; i++){
+        fill(0);
+        text(city + postalCode + ip, 20 + i*50, 960); 
+    }
+    for(i = 0; i < 50; i++){
+        fill(0);
+        text(city + postalCode + ip, 0 + i*90, 980); 
+    }
+
+    for(i = 0; i < 50; i++){
+        fill(255);
+        text(city + postalCode + ip, 0 + i*90, 970); 
+    }
 }
