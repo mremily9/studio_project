@@ -567,7 +567,7 @@ for(i = 0; i < 30; i++){
 ```
 
 
-I then had another set of text for the ip address on the left 
+I then had another set of text for the ip address on the left. 
 
 ![image](https://github.com/user-attachments/assets/755d95f0-7773-4612-8c4b-b790f1f8f5b7)
 
@@ -596,9 +596,10 @@ This work addresses my theme of glitches by creating these false glitches to the
 
 # Future development 
 
-- I would love to develop this project much further, creating more complex glitches, and more of them to add to the variety of it.
+- I would love to develop this project much further, creating more complex glitches, and more of them to add to its variety of it.
 - I believe there are some bugs within the program where it doesn't work and needs to be refreshed, which I would love to "fix"
-- I would also like to look into creating more different types of animations for the ball animation side, having different shapes and sizes aswell. 
+- I would also like to look into creating more different types of animations for the ball animation side, with different shapes and sizes as well.
+- Another thing I wanted to do was look into glitching in the balls within the scene of the glitches - such as if they were somewhat seen within the glitch or just before the change into the glitch website. 
 
 
 # Reflection
@@ -607,6 +608,6 @@ This work addresses my theme of glitches by creating these false glitches to the
 - I got to learn a lot about glitches, why I had a fascination with them, and what they meant from a critical lens, looking into the breaking of the system and its underlaying. Showcasing how the gneral user of the net works. 
 - I was able to produce a work based on glitches that I enjoyed
 - General reflection-wise, I was somewhat sad about the less time I had spent working on this versus the workshops.
-  - due to the nature of the workshops, the amount of them and how they were being done week by week, it was easy to work on it week by week.
+  - Due to the nature of the workshops, the number of them, and how they were being done week by week, it was easy to work on them week by week.
 - However, looking back on this studio project, I wasn't able to work on this as consistently as I had with my workshop tasks
 - This was due to outside commitments, which I could've planned around better, but also from getting sick twice, with only a week in between. While I write this, I am still recovering from the sickness; however, without these roadblocks, I feel like I would've been able to produce something I would be more proud of and develop it more. 
