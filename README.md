@@ -35,7 +35,7 @@ About the project:
 # Notes/contextual research 
 I had done my research commentaries on the artwork ASDFG by JODI (1999) and on chapter 2. Avant-Garde Glitch: Red Noise, Purple Haze, Black Box for the text. 
 
-
+This can be read in the pdf format within my repo [here](https://github.com/mremily9/studio_project/blob/main/205%20FA%20workbook%20-%20Emily%20Chin%20%20(1).pdf). 
 
 
 # Progress (Problem Solving/Code)
